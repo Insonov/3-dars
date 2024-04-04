@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: inherit;
+    list-style: none;
+}
+
+body{
+    background-color: #f7f7f7ef;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    padding: 40px 0 96px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 86px;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li{
+    color: #1f1534;
+    opacity: 0.7;
+    transition: 0.4s ease-in-out;
+}
+
+nav ul li :hover{
+    color: #000;
+    opacity: 1;
+}
+
+.showcase{
+    display: flex;
+    align-items: center;
+}
+
+.showcase-left h1{
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.showcase-left p{
+    color: #7d7987;
+    padding: 30px 0 40px;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.showcase button{
+    padding: 16px 38px 17px 37px;
+    border-radius: 55px;
+    border: 1px solid transparent;
+    background-color: #458ff6;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.service h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service p{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #7D7987;
+    padding: 61px 325px 50px 323px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.cards h3{
+    font-size: 24px;
+    line-height: 56px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    width: 31%;
+    text-align: center;
+    color: #000000;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cards img{
+    display: flex;
+    align-items: right;
+}
+
+.card{
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+    height: 380px;
+    padding: 50px;
+}
+
+.bbb{
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    width: 200px;
+    height: 56px;
+    font-size: medium;
+    color: #458FF6;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 490px 106px 440px;
+}
+
+.h{
+    font-size: 36px;
+    color: #000000;
+    line-height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    height: 240px;
+    width: 380px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+}
+.sections h3{
+    width: 251px;
+    height: 64px;
+    top: 270px;
+    left: 30px;
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.section{
+    width: 31%;
+    text-align: left;
+    color: #000000;
+}
+
+.section{
+    border: 1px solid #dddddd;
+    width: 380px;
+    height: 504px;
+}
+
+.sections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sections h3{
+    margin: 30px 90px 10px 30px;
+    color: #000000;
+}
+
+.sections p{
+    width: 266px;
+    height: 84px;
+    margin: 30px 90px 10px 30px;
+    color: #7D7987;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.sections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.read{
+    top: 446px;
+    left: 30px;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ED;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.clas{
+    padding: 1px 212px 106px 208px;
+}
+
+.ft{
+    background: linear-gradient(rgba(103, 195, 243, 1),rgba(90, 152, 242, 1));
+    display: flex;
+    width: 1600px;
+    height: 325px;
+    top: 2774px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.ft-logo img{
+    width: 170.24px;
+    height: 41px;
+}
+
+.ft-logo p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.ft-logo{
+    width: 386px;
+    height: 56px;
+    top: 2890px;
+    left: 210px;
+    margin: 116px 150px 95px 210px;
+}
+
+.logotip img{
+    width: 44px;
+    height: 47px;
+}
+
+.company{
+    width: 97px;
+    height: 101px;
+    top: 2890px;
+    left: 746px;
+    margin: 116px 170px 108px 0;
+}
+
+.company p {
+    width: 51px;
+    height: 56px;
+    top: 2935px;
+    left: 746px;
+    gap: 10px;
+}
+
+.rg{
+    width: 84px;
+    height: 101px;
+    top: 2890px;
+    left: 1013px;
+    margin: 116px 250px 108px 0;
+}
+
+.logotip{
+    width: 44px;
+    height: 47px;
+    top: 2889px;
+    left: 1289px;
+    display: flex;
+    margin: 115px 0 163px 0;
+}
+
+
+
